@@ -1,0 +1,225 @@
+.navbarbg{
+ background-color:rgb(10, 10, 10); 
+}
+.nav-link {
+  cursor: pointer;
+  color: #fff ;
+  
+  /* text-shadow:   0 0 1px #00b3ff,
+  0 0 20px #00b3ff,
+ 0 0 40px#00b3ff,
+0 0 80px #00b3ff,
+0 0 120px #00b3ff,
+0 0 200px #00b3ff,  
+0 0 300px #00b3ff,  
+0 0 400px #00b3ff, 
+0 0 400px #00b3ff;  */
+ 
+}
+ 
+
+.textcolor{
+  color: #000;
+}
+body{
+  background-color: rgb(250, 247, 247);
+}
+
+
+.homee{
+         width: 100%;
+         height: 100vh;
+         background-image: url(./imgs/food-1024x683.jpg);
+         background-size: cover;
+background-repeat: no-repeat;
+         background-position: center center;
+         background-attachment: fixed;
+}
+.titel{
+         font-size: 100px;
+         font-weight: bold;
+         color: #fff;
+        text-shadow:   0 0 1px #f0f1f1,
+       0 0 20px #00b3ff,
+        0 0 40px#00b3ff,
+       0 0 80px #00b3ff,
+      0 0 120px #00b3ff,
+      0 0 200px #00b3ff,  
+      0 0 300px #00b3ff,  
+      0 0 400px #00b3ff, 
+      0 0 400px #00b3ff, 
+      0 0 400px #00b3ff;  
+}
+.mstar{
+  margin-left: 27%;
+}
+
+
+
+
+.past img{
+         width: 100%;
+         height: 300px;
+}
+.heater{
+         position: absolute;
+         top: 0%;
+         left: 1.5%;
+         width: 20%;
+         height: 90px;
+         /* background-color: #fff; */
+         /* transform: translate(-50%, -50%); */
+         /* -webkit-transform: translate(-50%, -50%);
+         -moz-transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%); */
+        
+       }
+       .mttop{
+         margin-top: 17%;
+
+       }
+       span{
+         font-size: 30px;
+         font-weight: 900px;
+       }
+       .heater span{
+         position: absolute;
+         /* width: 50px;
+         height: 50px; */
+         /* background: #914; */
+         border-radius: 4px;
+         animation: animate linear infinite;
+         -webkit-animation: animate 2.5s linear infinite;
+         -webkit-border-radius: 4px;
+         -moz-border-radius: 4px;
+         -ms-border-radius: 4px;
+         -o-border-radius: 4px;
+       }
+       .heater span:nth-child(1){
+         color: #ffcd2f;
+         animation-delay: 0s;
+       }
+       .heater span:nth-child(2){
+         color: #53d68a;
+         animation-delay: -0.5s;
+         
+       
+       }
+       .heater span:nth-child(3){
+         color: #74175c;
+        
+         animation-delay: -1s;
+         
+       }
+       .heater span:nth-child(4){
+        color: #2383dd;
+       
+        animation-delay: -1.5s;
+        
+      }
+      .heater span:nth-child(5){
+        color: #a14b4b;
+       
+        animation-delay: -2s;
+        
+      }
+       @keyframes animate{
+         0%{
+           top: 0%;
+           left: 0%;
+         }
+         12.5%{
+           top: 0%;
+           left:50%;
+         }
+         25%{
+           top: 0%;
+           left:50%;
+         }
+         37.5%{
+           top: 50%;
+           left:50%;
+         }
+         50%{
+           top: 50%;
+           left:50%;
+         }
+         62.5%{
+           top: 50%;
+           left:0%;
+         }
+         75%{
+           top: 50%;
+           left:0%;
+         }
+         87.5%{
+           top: 0%;
+           left:0%;
+         }
+         100%{
+           top: 0%;
+           left:0%;
+         }
+       }
+
+       /* --------------------------------------------------- */
+      .lite {
+        color: #111;
+        font-size: 2em;
+      }
+      .lite span{
+        display: table-cell;
+        animation: animatee 1.5s linear infinite;
+        -webkit-animation: animatee 1.5s linear infinite;
+}
+      
+      
+      
+      .lite span:nth-child(1){
+        
+        animation-delay: 0s;
+      }
+      .lite  span:nth-child(2){
+        
+        animation-delay: .3s;
+      }
+      .lite   span:nth-child(3){
+        animation-delay: 0.6s;
+      }
+      .lite  span:nth-child(4){
+        animation-delay: 0.9s;
+      }
+      .lite   span:nth-child(5){
+        animation-delay: 1.2s;
+      }
+      
+      @keyframes animatee{
+        0%,100%{
+          color: #fff;
+          filter: blur(2px);
+          -webkit-filter: blur(2px);
+          /* text-shadow:   0 0 10px #00b3ff,
+                        0 0 20px #00b3ff,
+                       0 0 40px#00b3ff,
+                      0 0 80px #00b3ff,
+                     0 0 120px #00b3ff,
+                     0 0 200px #00b3ff,  
+                     0 0 300px #00b3ff,  
+                     0 0 400px #00b3ff, 
+                     0 0 400px #00b3ff, 
+                     0 0 400px #00b3ff;  */
+      
+      
+      }
+       
+        5%,95%{
+          color: #111;
+          filter: blur(0px);
+          -webkit-filter: blur(0px);
+          text-shadow:  0 0   none;
+      
+      
+      }
+      }
+      
